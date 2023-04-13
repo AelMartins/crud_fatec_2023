@@ -1,3 +1,11 @@
+<!-- A parte mais importante deste código é a verificação de validade do email e senha
+ fornecidos pelo usuário no início do código. Esta verificação é crucial para garantir 
+ que somente usuários autorizados tenham acesso à área restrita do site. Além disso, a 
+ utilização de criptografia md5 na senha também é importante para garantir a segurança 
+ das informações do usuário. Outro ponto importante é a utilização de sessões para 
+ manter o usuário autenticado após o login, evitando a necessidade de autenticação a 
+ cada nova página acessada na área restrita. -->
+
 <?php
 
 ob_start();

@@ -15,6 +15,8 @@
     </header>
     <main>
       <div class="container">
+        <button @click="goToCadastroProfessores">Cadastro de Professores</button>
+        <button @click="goToBuscaProfessores">Busca de Professores</button>
         <button @click="goToCadastroAlunos">Cadastro de Alunos</button>
         <button @click="goToBuscaAlunos">Busca de Alunos</button>
       </div>
@@ -23,10 +25,22 @@
   </body>
 </html>
 
+<!-- A parte mais importante deste código é a criação da instância do Vue, 
+  a definição do elemento raiz, e a definição dos métodos "goToCadastroAlunos" 
+  e "goToBuscaAlunos". Esses métodos são chamados quando os botões de 
+  "Cadastro de Alunos" e "Busca de Alunos" são clicados e abrem as respectivas 
+  páginas em uma nova janela do navegador. -->
+
 <script>
   new Vue({
     el: "main",
     methods: {
+      goToCadastroProfessores() {
+        window.open("cadastroProfessores.html", "_blank");
+      },
+      goToBuscaProfessores() {
+        window.open("buscaProfessores.html", "_blank");
+      },
       goToCadastroAlunos() {
         window.open("cadastroAlunos.html", "_blank");
       },

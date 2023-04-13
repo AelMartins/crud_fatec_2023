@@ -103,6 +103,10 @@ input:not([type="checkbox"]) {
   transition: all 0.2s linear;
 }
 
+/* A parte mais importante deste código é a definição de estilos para os elementos de formulário,
+ incluindo o estilo do botão submit. Isso porque o código se concentra em fornecer uma aparência 
+ atraente e coesa para os formulários. Os formulários são uma das partes mais importantes dos sites.*/
+
 /*estilo do botão submit */
 input[type="submit"] {
   width: 100% !important;

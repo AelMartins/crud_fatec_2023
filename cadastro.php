@@ -1,7 +1,13 @@
+<!-- A parte mais importante deste código é a interação com o banco de dados MySQL. 
+Através do código, é possível realizar operações básicas de 
+CRUD (create, read, update e delete) no banco de dados, permitindo que o usuário adicione, 
+edite e remova informações do banco. Além disso, a utilização de JSON para enviar e 
+receber dados entre o frontend e o backend torna a comunicação entre eles mais eficiente e escalável. -->
+
 <?php
 header('Access-Control-Allow-Origin: *');
 
-$connect = new PDO("mysql:host=localhost;dbname=id19500520_db", "id19500520_user", "Xitn^Gbvn3V9Kg<)");
+$connect = new PDO("mysql:host=localhost;dbname=id20421073_gamedb", "id20421073_aelmartins", "E.E.HomeroA1");
 $received_data = json_decode(file_get_contents("php://input"));
 $data = array();
 if ($received_data->action == 'fetchall') {

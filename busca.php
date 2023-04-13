@@ -1,8 +1,16 @@
+<!-- A parte mais importante desse código é a consulta SQL, 
+pois é o que realiza a busca no banco de dados com base no 
+parâmetro recebido através do método POST. Dependendo do 
+valor recebido, a consulta SQL será diferente, mas ambas as 
+consultas vão ordenar os resultados pelo ID em ordem decrescente 
+e retornar um array de resultados em formato JSON, que é retornado 
+para a aplicação front-end que fez a requisição. -->
+
 <?php
 
 header('Access-Control-Allow-Origin: *');
 
-$connect = new PDO("mysql:host=localhost;dbname=id19500520_db", "id19500520_user", "Xitn^Gbvn3V9Kg<)");
+$connect = new PDO("mysql:host=localhost;dbname=id20421073_gamedb", "id20421073_aelmartins", "E.E.HomeroA1");
 
 $received_data = json_decode(file_get_contents("php://input"));
 

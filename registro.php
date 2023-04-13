@@ -1,3 +1,11 @@
+<!-- A parte mais importante deste código é verificar se o e-mail já está em uso 
+antes de inserir um novo usuário no banco de dados. Isso garante que não haja 
+registros duplicados no banco e evita possíveis erros no futuro. Além disso, 
+a senha do usuário é criptografada usando a função md5() antes de ser armazenada 
+no banco de dados, o que também é importante para garantir a segurança das 
+informações. Outra parte importante é o uso de sessions para manter o usuário 
+autenticado e o redirecionamento para a página correta após o login ou cadastro. -->
+
 <?php
 
 ob_start();

@@ -1,3 +1,8 @@
+/* As partes mais importantes são as regras de estilo para os elementos de formulário, 
+como os campos de entrada de texto, o botão de envio, o painel de login e o painel de cadastro. 
+Também a definição da fonte padrão, a margem zero para o corpo, e a definição de um fundo de cor 
+clara para o corpo. */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;

@@ -1,10 +1,7 @@
 # Exemplo CRUD com BD Relacional
 
 Projeto feito em sala de aula para testar o uso de Banco de Dados Relacional.
-
-## 🚀 DEMO
-
-[Link para Demo](https://fatec-teste2.000webhostapp.com/)
+Mesmo projeto usado para avaliar o conhecimento dos alunos.
 
 ## 🛠️ Construído com
 
@@ -12,15 +9,8 @@ Projeto feito em sala de aula para testar o uso de Banco de Dados Relacional.
 * [PHP](https://www.php.net/) - Linguagem para conexão com banco de dados e execução do CRUD.
 * [VueJS](https://vuejs.org/) - Usada para gerenciar as interações entre páginas
 
-## ✒️ Telas
+*********************************************************************************************
 
-![Screenshot](Screenshot_1.png)
+## LINK DO SITE
 
-![Screenshot](Screenshot_2.png)
-
-![Screenshot](Screenshot_3.png)
-
-![Screenshot](Screenshot_4.png)
-
-![Screenshot](Screenshot_5.png)
-
+https://fatecgamedb.000webhostapp.com/
